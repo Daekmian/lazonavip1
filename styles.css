@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  text-align: center;
+}
+
+header {
+  padding: 2rem 1rem 1rem;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.servicios {
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.servicios h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.servicios ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.servicios li {
+  margin: 0.5rem 0;
+}
+
+.contacto {
+  margin: 2rem 0;
+}
+
+.btn-whatsapp {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: background 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe5b;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
